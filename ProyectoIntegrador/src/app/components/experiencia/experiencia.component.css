@@ -10,4 +10,5 @@ h2, h3{
 h1{
     font-size:25px;
     font-style: bold;
+    text-decoration: underline;
 }
