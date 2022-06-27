@@ -1,0 +1,14 @@
+.row {
+    padding: 25px;
+}
+h1, h3{
+    display: inline;
+}
+h2, h3{
+    font-size: 25px;
+}
+h1{
+    font-size:30px;
+    font-style: bold;
+    text-decoration: underline;
+}

@@ -12,3 +12,8 @@ h1{
     font-style: bold;
     text-decoration: underline;
 }
+img {
+    max-width: 40%;
+    max-height: 40%;
+    text-align: center;
+   }
