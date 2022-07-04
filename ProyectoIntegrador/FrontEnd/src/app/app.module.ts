@@ -13,7 +13,7 @@ import { HardysComponent } from './components/hardys/hardys.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,17 +30,11 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
      BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({
-      // set defaults here
-      radius: 100,
-      outerStrokeWidth: 16,
-      innerStrokeWidth: 8,
-      outerStrokeColor: "#78C000",
-      innerStrokeColor: "#C7E596",
-      animationDuration: 300,
-      })
+     NgCircleProgressModule.forRoot({}),
+     HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
+ 
 })
 export class AppModule { }
